@@ -61,6 +61,13 @@ The project refers lots of great works which can be found by following links,
 
 
 ## How to Use
+First of all, you should add CANopenNode into RoverSoftware/USER/Libs/CanOpenSTM32
+```
+  git clone https://github.com/CANopenNode/CANopenNode.git
+```
+And then, return the RoverSoftware file and compile it by cmake. 
+
+---
 To run it, 
 1. STM32 terminal connects Raspberry Pi with USART. After which, in Raspberry Pi, performing the following commands, 
 
@@ -76,3 +83,4 @@ To run it,
     ```
     rostopic list
     ``` 
+---
